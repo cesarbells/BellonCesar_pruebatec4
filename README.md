@@ -12,17 +12,17 @@ La aplicación de Agencia de Viajes permite gestionar las reservas de hoteles y 
 
 <b>JDK 17:</b> Versión de Java utilizada.
 
-Spring Boot 3.4.2: Framework utilizado para desarrollar la aplicación.
+<b>Spring Boot 3.4.2:</b>Framework utilizado para desarrollar la aplicación.
 
-JPA (Java Persistence API): Para el mapeo objeto-relacional (ORM) y la interacción con la base de datos.
+<b>JPA (Java Persistence API):</b> Para el mapeo objeto-relacional (ORM) y la interacción con la base de datos.
 
-MySQL: Base de datos relacional utilizada para almacenar la información.
+<b>MySQL:</b> Base de datos relacional utilizada para almacenar la información.
 
-Spring Security: Implementación de seguridad básica con autenticación.
+<b>Spring Security:</b> Implementación de seguridad básica con autenticación.
 
-Swagger: Para la documentación de la API.
+<b>Swagger:</b> Para la documentación de la API.
 
-Frontend
+<h3>Frontend</h3>
 
 Actualmente, la aplicación se centra en el backend desarrollado con Spring Boot.
 
@@ -34,19 +34,19 @@ MySQL Server con una base de datos configurada.
 
 Servidor de aplicaciones compatible con Java (por ejemplo, Apache Tomcat).
 
-Arquitectura
+<h3>Arquitectura</h3>h3>
 
 La aplicación está desarrollada utilizando el modelo de capas, que se divide en:
 
-Controladores (Controllers): Gestionan las solicitudes HTTP y responden con los datos procesados.
+<b>Controladores (Controllers):</b> Gestionan las solicitudes HTTP y responden con los datos procesados.
 
-Servicios (Services): Contienen la lógica de negocio de la aplicación.
+<b>Servicios (Services): Contienen la lógica de negocio de la aplicación.
 
-Repositorios (Repositories): Manejan la comunicación con la base de datos mediante JPA.
+<b>Repositorios (Repositories):</b> Manejan la comunicación con la base de datos mediante JPA.
 
-Modelos (Entities/DTOs): Representan las entidades de la base de datos y los objetos de transferencia de datos.
+<b>Modelos (Entities/DTOs):</b> Representan las entidades de la base de datos y los objetos de transferencia de datos.
 
-Configuración Inicial
+<h3>Configuración Inicial</h3>h3>
 
 La aplicación fue generada con Spring Initializr y configurada para trabajar con MySQL. Se recomienda verificar el archivo application.properties o application.yml para la configuración de la base de datos y seguridad.
 
