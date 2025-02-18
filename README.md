@@ -34,19 +34,19 @@ MySQL Server con una base de datos configurada.
 
 Servidor de aplicaciones compatible con Java (por ejemplo, Apache Tomcat).
 
-<h3>Arquitectura</h3>h3>
+<h3>Arquitectura</h3>
 
 La aplicación está desarrollada utilizando el modelo de capas, que se divide en:
 
 <b>Controladores (Controllers):</b> Gestionan las solicitudes HTTP y responden con los datos procesados.
 
-<b>Servicios (Services): Contienen la lógica de negocio de la aplicación.
+<b>Servicios (Services):</b> Contienen la lógica de negocio de la aplicación.
 
 <b>Repositorios (Repositories):</b> Manejan la comunicación con la base de datos mediante JPA.
 
 <b>Modelos (Entities/DTOs):</b> Representan las entidades de la base de datos y los objetos de transferencia de datos.
 
-<h3>Configuración Inicial</h3>h3>
+<h3>Configuración Inicial</h3>
 
 La aplicación fue generada con Spring Initializr y configurada para trabajar con MySQL. Se recomienda verificar el archivo application.properties o application.yml para la configuración de la base de datos y seguridad.
 
